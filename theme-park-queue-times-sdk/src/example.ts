@@ -1,7 +1,7 @@
-import { getParkList, getQueueTimes } from ".";
+import { getThemeParkList, getQueueTimes } from ".";
 
 console.log("Getting list of parks");
-getParkList()
+getThemeParkList()
   .then((parkList) => {
     const disney = parkList.find((park) => park.name === "Walt Disney Attractions");
     console.log(disney);

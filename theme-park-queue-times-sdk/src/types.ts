@@ -1,5 +1,5 @@
 export interface Park {
-  id: string;
+  id: number;
   name: string;
   country: string;
   continent: string;
@@ -29,6 +29,7 @@ export interface Ride {
 }
 
 export interface QueueTimes {
+  park_id: number;
   lands: Land[];
   rides: Ride[];
 }
