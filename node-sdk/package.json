@@ -1,0 +1,21 @@
+{
+  "name": "node-sdk",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/EtienneThompson/ThemeParkQueueTimes.git",
+  "author": "Etienne Thompson <et@etiennethompson.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node example.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.3"
+  }
+}
