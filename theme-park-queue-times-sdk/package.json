@@ -1,18 +1,24 @@
 {
-  "name": "node-sdk",
+  "name": "theme-park-queue-times-sdk",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": "https://github.com/EtienneThompson/ThemeParkQueueTimes.git",
   "author": "Etienne Thompson <et@etiennethompson.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
     "start": "ts-node example.ts",
-    "build": "tsc"
+    "build": "tsup"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/node": "^20.10.5",
+    "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   },
   "dependencies": {
